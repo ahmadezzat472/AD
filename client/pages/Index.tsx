@@ -157,14 +157,19 @@ export default function Index() {
                           </div>
                         </div>
                       </div>
-                      <Button
-                        size="sm"
-                        variant="outline"
-                        className="border-purple-200 text-purple-700 hover:bg-purple-50 w-full sm:w-auto"
-                      >
-                        <Eye className="w-4 h-4 mr-2" />
-                        View Waitlist
-                      </Button>
+                      <div className="flex items-center gap-2">
+                        <Button
+                          size="sm"
+                          variant="outline"
+                          className="border-purple-200 text-purple-700 hover:bg-purple-50 w-full sm:w-auto"
+                        >
+                          <Eye className="w-4 h-4 mr-2" />
+                          View Waitlist
+                        </Button>
+                        <Button size="sm" className="!size-8">
+                          <BsQrCode className="" />
+                        </Button>
+                      </div>
                     </div>
 
                     {/* Rainbow Room */}
@@ -193,14 +198,19 @@ export default function Index() {
                           </div>
                         </div>
                       </div>
-                      <Button
-                        size="sm"
-                        variant="outline"
-                        className="border-purple-200 text-purple-700 hover:bg-purple-50 w-full sm:w-auto"
-                      >
-                        <Eye className="w-4 h-4 mr-2" />
-                        View Waitlist
-                      </Button>
+                      <div className="flex items-center gap-2">
+                        <Button
+                          size="sm"
+                          variant="outline"
+                          className="border-purple-200 text-purple-700 hover:bg-purple-50 w-full sm:w-auto"
+                        >
+                          <Eye className="w-4 h-4 mr-2" />
+                          View Waitlist
+                        </Button>
+                        <Button size="sm" className="!size-8">
+                          <BsQrCode className="" />
+                        </Button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -218,7 +228,7 @@ export default function Index() {
                     <BookOpen className="w-6 h-6 text-purple-600" />
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-2">
-                    All Placeholders
+                    AD Placeholders
                   </h3>
                   <p className="text-gray-500 text-sm">
                     admin dashboard
@@ -307,7 +317,7 @@ export default function Index() {
                     <BookOpen className="w-6 h-6 text-purple-600" />
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-2">
-                    All Placeholders
+                    AD Placeholders
                   </h3>
                   <p className="text-gray-500 text-sm">
                     admin dashboard
